@@ -1,11 +1,4 @@
 /*
-
-Student Name: Seyfi Kutay Kılıç
-Student Number: 2015400042
-Compile Status: Compiling
-Program Status: Working
-Notes: 
-I implemented the project using the second approach.
 My program first initializes some useful variables; such as
 world_size, slave_size, slavePerDimension, lengthPerProcess; to use
 in master and slave processes. Then,
