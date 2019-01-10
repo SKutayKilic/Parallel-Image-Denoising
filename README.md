@@ -5,10 +5,10 @@ Used C and MPI for the main program.<br />
 Python for the scripts.<br />
 <br />
 1)To convert a png file into an input file: <br />
-  python image_to_text.py <image-file> <input-file> <br />
+&nbsp;&nbsp;&nbsp; python image_to_text.py <image-file> <input-file> <br />
 2)To compile the program: <br />
-  mpicc -g denoiser.c -o <executable-name> -lm <br />
+&nbsp;&nbsp;&nbsp; mpicc -g denoiser.c -o <executable-name> -lm <br />
 3)To execute the program: <br />
-  mpiexec –n <Number of processors> ./<executable-name> <input-file> <output-file> <Beta-value> <P-Value> <br />
+&nbsp;&nbsp;&nbsp; mpiexec –n <Number of processors> ./<executable-name> <input-file> <output-file> <Beta-value> <P-Value> <br />
 4)To convert the output file into a png file: <br />
-  python text_to_image.py <output-file> <image-file> <br />
+&nbsp;&nbsp;&nbsp; python text_to_image.py <output-file> <image-file> <br />
